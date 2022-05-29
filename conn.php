@@ -21,9 +21,7 @@
     if (mysqli_connect_error()){
 
         die("Failed to connect to MySQL: " . mysqli_connect_error()); 
-    }
-
-    echo "Succeeded to connect to MySQL"; 
+    } 
 
     ?>
 </body>
