@@ -22,7 +22,7 @@
     }
     mysqli_free_result($result);
     mysqli_close($conn);
-    echo "<br>";
+    echo "<br>\n";
     ?>
 </body>
 </html>
