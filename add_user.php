@@ -16,7 +16,7 @@
 
             if(!mysqli_query($conn, $sql)){
 
-                die('Error: ' . mysqli_error());
+                die('Error: ' . mysqli_connect_error());
 
             }
             echo "1 record successfully added...";
