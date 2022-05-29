@@ -11,12 +11,12 @@
     
     include 'conn.php';
 
-    $sql= "insert into user(firstname, lastname, email, pass_word, registration_date)
-    values('$_POST[firstname]', '$_POST[lastname]', '$_POST[email]', '$_POST[password]', '$_POST[reg_date]')";
+    $sql= "insert into user(first_name, last_name, email, pass_word)
+    values('$_POST[firstname]', '$_POST[lastname]', '$_POST[email]', '$_POST[password]')";
 
             if(!mysqli_query($conn, $sql)){
 
-                die('Error: ' . mysqli_connect_error());
+                die('Error: ' . mysqli_error());
 
             }
             echo "1 record successfully added...";
