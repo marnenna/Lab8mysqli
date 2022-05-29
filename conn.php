@@ -14,12 +14,16 @@
     define('db_host','localhost');
     define('db_name','registration');
 
-    $conn = mysqli_connect(db_host, db_user, db_password, db_name);
+    //Create connection
+    $conn = mysqli_connect($db_host, $db_user, $db_password, $db_name);
 
+    //Check connection 
     if (mysqli_connect_errno()){
 
-        echo "Failed to connect to MySQL: " . mysqli_connect_error(); 
+        die("Failed to connect to MySQL: " . mysqli_connect_error()); 
     }
+
+    echo "Succed to connect to MySQL"; 
 
     ?>
 </body>
