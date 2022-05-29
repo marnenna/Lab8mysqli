@@ -9,11 +9,11 @@
 <body>
     <form aciton="add_user.php" method="past">
         
-        Firstname:  <input type="text" name="firstname" required><br>
-        Lastname:   <input type="text" name="lastname" required><br>
-        E-mail:     <input type="text" name="email" required><br>
-        Password:   <input type="text" name="password" required><br>
-        Registration date: <input type="date" name="reg_date" required><br>
+        Firstname:  <input type="text" name="firstname" required><br><br>
+        Lastname:   <input type="text" name="lastname" required><br><br>
+        E-mail:     <input type="text" name="email" required><br><br>
+        Password:   <input type="text" name="password" required><br><br>
+        Registration date: <input type="date" name="reg_date" required><br><br>
         <input type="submit" value="Submit Data">
 
     </form>
