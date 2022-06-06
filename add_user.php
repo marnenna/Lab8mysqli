@@ -19,6 +19,7 @@
                 die('Error: ' . mysqli_connect_error());
 
             }
+            
             echo "1 record successfully added...";
     
     ?>
