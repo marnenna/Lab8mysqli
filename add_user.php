@@ -11,8 +11,8 @@
     
     include 'conn.php';
 
-    $sql = "insert into user (firstname, lastname, email, password)
-    values('$firstname', '$lastname', '$email', '$password')";
+    $sql = "insert into user (first_name, last_name, email, pass_word)
+    values('$_POST[firstname]', '$_POST[lastname]', '$_POST[email]', '$_POST[password], , '$_POST[reg_date]')";
 
             if(!mysqli_query($conn, $sql)){
 
